@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Greeting from '../components/Greeting';
 import math from 'mathjs';
+import Navigation from '../components/Navigation';
 
 
 class App extends Component {
   render() {
 
     return (
-      <div className="App">
-        <Greeting />
+      <div className="Navbar">
+        <Navigation/>
       </div>
     );
   }

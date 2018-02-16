@@ -2,7 +2,7 @@ import React from 'react';
 
 const Greeting = props => {
   return(
-    <h2>Person</h2>
+    <h2><a href="#root">Michael Winslow</a></h2>
   )
 }
 
