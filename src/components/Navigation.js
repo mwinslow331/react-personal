@@ -6,7 +6,7 @@ class Navigation extends Component {
 
   render() {
     return(
-      <div className="Navbar">
+      <div className="navigation-bar">
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>

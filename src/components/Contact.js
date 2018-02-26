@@ -1,15 +1,27 @@
 import React, {Component} from 'react';
+import { Panel } from 'react-bootstrap';
+import { Link } from 'react-router';
 
 class Contact extends Component {
 
   render(){
     return(
-      <div className="contact">
-        <h2>Follow My Projects, Career and Interests!</h2>
-          <h5><a href="#root">Twitter</a></h5>
-          <h5><a href="#root">GitHub</a></h5>
-          <h5><a href="#root">LinkedIn</a></h5>
-      </div>
+      <Panel>
+        <Panel.Footer>
+          <div className="contact-logos">
+            <h2>Follow My Projects, Career and Interests!</h2>
+              <a className="btn btn-social-icon btn-twitter">
+                <span className="fa fa-twitter"><a href="https://twitter.com/mwinslow331"></a></span>
+              </a>
+              <a className="btn btn-social-icon btn-github">
+                <span className="fa fa-github"><a href="https://github.com/mwinslow331"></a></span>
+              </a>
+              <a className="btn btn-social-icon btn-linkedin">
+                <span className="fa fa-linkedin"><a href="https://www.linkedin.com/in/mwinslow331/"></a></span>
+              </a>
+          </div>
+        </Panel.Footer>
+      </Panel>
     )
   }
 }
