@@ -10,14 +10,14 @@ class Contact extends Component {
         <Panel.Footer>
           <div className="contact-logos">
             <h2>Follow My Projects, Career and Interests!</h2>
-              <a className="btn btn-social-icon btn-twitter">
-                <span className="fa fa-twitter"><a href="https://twitter.com/mwinslow331"></a></span>
+              <a href="https://twitter.com/mwinslow331" className="btn btn-social-icon btn-twitter">
+                <span className="fa fa-twitter"></span>
               </a>
-              <a className="btn btn-social-icon btn-github">
-                <span className="fa fa-github"><a href="https://github.com/mwinslow331"></a></span>
+              <a href="https://github.com/mwinslow331" className="btn btn-social-icon btn-github">
+                <span className="fa fa-github"></span>
               </a>
-              <a className="btn btn-social-icon btn-linkedin">
-                <span className="fa fa-linkedin"><a href="https://www.linkedin.com/in/mwinslow331/"></a></span>
+              <a href="https://www.linkedin.com/in/mwinslow331/" className="btn btn-social-icon btn-linkedin">
+                <span className="fa fa-linkedin"></span>
               </a>
           </div>
         </Panel.Footer>
