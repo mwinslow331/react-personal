@@ -2,7 +2,10 @@ import React from 'react';
 
 const Greeting = props => {
   return(
-    <h2>Person</h2>
+    <div className="introduction">
+      <h2>Michael Winslow</h2>
+      <h5>Full Stack Developer</h5>
+    </div>
   )
 }
 

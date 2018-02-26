@@ -1,0 +1,35 @@
+/* @import react-bootstrap */
+
+.body {
+  background-color: blanchedalmond;
+  text-align: center;
+
+}
+
+.navigation-bar,.navbar .navbar-default {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/03/54/53561f36c24e3e2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.panel-footer {
+  background-color: #FEC52E;
+  border-top: none;
+  border-bottom-right-radius: none;
+  border-bottom-left-radius: none;
+}
+
+.twitter {
+  padding: 15px;
+  margin: auto;
+}
+
+.github {
+  padding: 15px;
+  margin: auto;
+}
+
+.linkedin {
+  padding: 15px;
+  margin: auto;
+}

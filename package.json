@@ -15,10 +15,13 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "bootstrap-social": "^5.1.1",
     "convert-units": "^2.3.1",
     "mathjs": "^3.16.5",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
